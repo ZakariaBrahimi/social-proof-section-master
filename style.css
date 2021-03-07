@@ -57,13 +57,13 @@ body{
     
 }
 .w-1{
-    align-self: flex-start;
+    align-self: self-start;
 }
 .w-2{
     align-self: center;
 }
 .w-3{
-    align-self: flex-end;
+    align-self: self-end;
 }
 /* Cards */
 
@@ -74,6 +74,7 @@ body{
     color: white;
 }
 .one-card, .two-card, .three-card{
+    border-radius: 1em;
     background-color: #511F50;
     padding: 2em;
     display: flex;
@@ -160,5 +161,8 @@ body{
         flex-direction: column;
         gap: 2em;
         color: white;
+    }
+    .three-card{
+        margin-bottom: 2em;
     }
 }
